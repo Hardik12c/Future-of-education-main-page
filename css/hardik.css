@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Headland+One&family=Ubuntu&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* universal */
+.background{
+    background: rgba(0, 0,0, 0.7) url(../img/bg2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.btn{
+    outline: none;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+    /* background-color:rgb(21 41 59); */
+    opacity: 0.8;
+}
+.text-big{
+    font-size: 40px;
+    margin: 5px 0px;
+    font-family: sans-serif;
+}
+.small-text{
+    margin: 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* leftnavbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    align-items: center;
+    top: 0;
+}
+.navbar a{
+    width: 20%;
+}
+.navbar ul{
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+.navbar ul img{
+    width: 50%;
+    border-radius: 86px;
+    margin: auto;    
+    display: block;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 25px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: rgb(187, 186, 186);
+}
+/* rightnavbar */
+.navbar .rightnav{
+    width: 30%;
+    text-align: right;
+    margin: 0px 10px;
+}
+.navbar .rightnav input{
+    margin: 36px 3px;
+    padding: 7px;
+    outline: none;
+    border-radius: 9px;
+    border: none;
+}
+.navbar .rightnav .navbtn{
+    margin: 5px;
+    padding: 4px;
+}
+.navbar .burger{
+    position: absolute;
+    display: none;
+    right: 2%;
+    top: 8%;
+    cursor: pointer;
+}
+.navbar .burger .line{
+    margin: 8px 10px;
+    width: 33px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+}
+/* first-section */
+
+.first-section{
+    color: white;
+    height: 80vh;
+}
+.first-section .main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+}
+.first-section .main-box #box-1{
+    width: 38%;
+}
+.first-section .main-box #box-1 .box-btn{
+    padding: 8px 23px;
+    margin: 5px;
+}
+.first-section .main-box #box-2{
+    width: 30%;
+}
+.first-section .main-box #box-2 img{
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 250px;
+    margin: auto; 
+    display: block;
+    aspect-ratio: 1/1;
+}
+/* middle section */
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 35px auto;
+}
+.middle .para{
+    padding: 0px 30px;
+}
+.middle .para .small{
+    text-align: justify;
+}
+.middle .img img{
+    width: 215px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: block;
+    margin-top: 22px;
+}
+.middle-left{
+    flex-direction: row-reverse;
+}
+/* contact section */
+.contact{
+    background-color: #f3fcff;
+}
+.contact h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.contact .form{
+    max-width: 75vw;
+    margin: 10px auto;
+}
+.contact .form input,textarea{
+    width: 100%;
+    margin: 12px 0px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 7px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact .form .btn-contact{
+    margin: 10px;
+    border: 2px solid black;
+    color: black;
+    padding: 8px 19px;
+    font-family: 'Ubuntu',sans-serif;
+}
+#footer{
+    height: 37px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Yeon Sung';
+    font-weight: bold;
+    margin-top: 20px;
+}
+#footer p{
+    text-align: center;
+}
+
+
